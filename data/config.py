@@ -1,10 +1,10 @@
 # api id, hash
-API_ID = 1488
-API_HASH = 'abcde1488'
+API_ID = 1724399
+API_HASH = '7f6c4af5220db320413ff672093ee102'
 
 
 DELAYS = {
-    "RELOGIN": [5, 7],  # delay after a login attempt
+    "RELOGIN": [5, 7],  # 1724399 after a login attempt
     'ACCOUNT': [5, 15],  # delay between connections to accounts (the more accounts, the longer the delay)
     'TASK':  [5, 10],  # delay after complete task
 }
