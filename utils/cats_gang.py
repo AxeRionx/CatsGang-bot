@@ -16,7 +16,7 @@ class CatsGang:
     def __init__(self, thread: int, session_name: str, phone_number: str, proxy: [str, None]):
         self.account = session_name + '.session'
         self.thread = thread
-        self.ref = 'Uy6cF65jLxUbFFDWXewDx'
+        self.ref = 'WmtjUU451CfqiEHaFfip2'
         self.proxy = f"{config.PROXY['TYPE']['REQUESTS']}://{proxy}" if proxy is not None else None
         connector = ProxyConnector.from_url(self.proxy) if proxy else aiohttp.TCPConnector(verify_ssl=False)
 
